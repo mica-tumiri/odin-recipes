@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(236, 241, 245);
+    font-family: Arial, sans-serif;
+}
+.home {
+    margin: 20px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.home:hover {
+    background-color: lightgray;
+}
+h1 {
+    margin: 20px; 
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(174, 198, 208);
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 400px;
+    height: auto;
+}
